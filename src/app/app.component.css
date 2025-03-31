@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+}
+
+  app-footer {
+    margin-top: auto; /* Esto empuja el footer hacia abajo */
+  }

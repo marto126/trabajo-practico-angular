@@ -1,0 +1,32 @@
+h1{
+    color: #369;
+    font-family: Arial, sans-serif;
+    font-size: 250%;
+}
+.relleno {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #252a20;
+    color: #fff;
+    padding: 20px;
+   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Distribuye en columnas dinámicas */
+    gap: 20px;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+  }
+   
+  
+  app-character {
+    display: block; /* Se asegura de que cada elemento respete la cuadrícula */
+    width: 100%;
+  }
+  

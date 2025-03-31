@@ -1,0 +1,8 @@
+<div class="relleno">
+<h1>Lista de personajes</h1>
+<div class="grid-container">
+  @for(character of characters; track character.id) {
+    <app-character [character]="character"></app-character>
+  }
+</div>
+</div>
