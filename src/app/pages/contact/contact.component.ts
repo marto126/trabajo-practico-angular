@@ -21,10 +21,12 @@ export class ContactComponent {
 
   onSubmit() {
     if (this.contactForm.valid) {
+      alert("✅ Formulario enviado correctamente");
       console.log("Form Submitted!", this.contactForm.value);
-      // Here you can add your form submission logic, like sending the data to a server
     } else {
+      alert("❌ El formulario es inválido. Por favor, revisa los campos.");
       console.log("Form is invalid");
     }
   }
+  
 }
